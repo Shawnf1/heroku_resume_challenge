@@ -6,13 +6,13 @@ $(document).ready(function ()
    $('#show_btn').click(function(e)
    {
        e.preventDefault();
-       if($('body').hasClass("hidden"))
+       if($('.hiding').hasClass("hidden"))
        {
-           $('body').removeClass("hidden");
+           $('.hiding').removeClass("hidden");
            $(this).prop("value", "Hide Resume");
        }else
        {
-           $('body').addClass("hidden");
+           $('.hiding').addClass("hidden");
            $(this).prop("value", "Show Resume");
        }
    });

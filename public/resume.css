@@ -11,9 +11,6 @@ body {
   text-align:justify;
   font-family: Helvetica, Garamond;
 }
-#show_btn {
-  visibility: visible;
-}
 .shading {
   background-color:lightgray;
   padding: 10px 0 10px 0;
